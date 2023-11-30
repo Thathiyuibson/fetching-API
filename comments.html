@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comments Viewer</title>
+  <link rel="stylesheet" href="comment.css">
+  
+</head>
+<body>
+  <div id="comments-container"></div>
+  <h3>Add Comments:</h3>
+  <form>
+    <label for="user-email">User's email:</label>
+    <input type="email" id="user-email"/><br><br>
+    <label for="comment-description">Add a comment:</label>
+    <textarea id="comment-description"></textarea><br>
+  </form>
+  <button onclick="addNewComment()">Add</button>
+  <script src="comments.js"></script>
+
+</body>
+</html>

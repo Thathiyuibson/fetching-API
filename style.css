@@ -1,0 +1,39 @@
+.post-container {
+    height: 200px;
+    /* display: inline-block; */
+    width: 250px;
+    margin-top: 10px;
+    margin: 10px solid;
+    margin-left: 20px;
+    padding: 15px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+    /* align-content:center; */
+    text-align: justify;
+    font-size: small;
+}
+#posts-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.comment-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color:#255bbe ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.title-el{
+    color: #2587be;
+}
+
+
+

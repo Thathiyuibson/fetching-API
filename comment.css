@@ -1,0 +1,24 @@
+.comment-container {
+    border: 1px solid #575656; /* Border color */
+    padding: 10px; /* Padding around the comment container */
+    margin-bottom: 10px; /* Margin between comments */
+    background-color:rgb(243, 247, 247);
+    border-radius: 5px;
+}
+
+.comment-container h4{
+    margin:0px;
+}
+.comment-container h5{
+    margin: 2px;
+    font-size: 10px;
+}
+.comment-container p {
+    margin: 0px;
+}
+
+#delete-btn{
+    color: red;
+    border-radius: 2px;
+    cursor: pointer;
+}
